@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ASTest/ProjectBoots/app/src/main/res/drawable/ic_add.xml" value="0.2115" />
+        <entry key="..\:/ASTest/ProjectBoots/app/src/main/res/drawable/inset.xml" value="0.2115" />
+        <entry key="..\:/ASTest/ProjectBoots/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/ASTest/ProjectBoots/app/src/main/res/layout/castom_row.xml" value="0.2" />
+        <entry key="..\:/ASTest/ProjectBoots/app/src/main/res/layout/fragment_add.xml" value="0.22" />
+        <entry key="..\:/ASTest/ProjectBoots/app/src/main/res/layout/fragment_favorit.xml" value="0.14617486338797814" />
+        <entry key="..\:/ASTest/ProjectBoots/app/src/main/res/layout/fragment_list.xml" value="0.16" />
+        <entry key="..\:/ASTest/ProjectBoots/app/src/main/res/layout/fragment_update.xml" value="0.153125" />
+        <entry key="..\:/ASTest/ProjectBoots/app/src/main/res/menu/delete_menu.xml" value="0.153125" />
+        <entry key="..\:/ASTest/ProjectBoots/app/src/main/res/menu/nav_menu.xml" value="0.153125" />
+        <entry key="..\:/Users/emiri/Desktop/ProjectBoots/app/src/main/res/drawable/dialog_sheet.xml" value="0.287" />
+        <entry key="..\:/Users/emiri/Desktop/ProjectBoots/app/src/main/res/drawable/ic_add.xml" value="0.322" />
+        <entry key="..\:/Users/emiri/Desktop/ProjectBoots/app/src/main/res/drawable/ic_archive.xml" value="0.196" />
+        <entry key="..\:/Users/emiri/Desktop/ProjectBoots/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.287" />
+        <entry key="..\:/Users/emiri/Desktop/ProjectBoots/app/src/main/res/drawable/inset.xml" value="0.196" />
+        <entry key="..\:/Users/emiri/Desktop/ProjectBoots/app/src/main/res/drawable/krug_ugli.xml" value="0.287" />
+        <entry key="..\:/Users/emiri/Desktop/ProjectBoots/app/src/main/res/drawable/searchview_background.xml" value="0.2985" />
+        <entry key="..\:/Users/emiri/Desktop/ProjectBoots/app/src/main/res/drawable/theme_buttom.xml" value="0.287" />
+        <entry key="..\:/Users/emiri/Desktop/ProjectBoots/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/emiri/Desktop/ProjectBoots/app/src/main/res/layout/button_sheet_layout.xml" value="0.33" />
+        <entry key="..\:/Users/emiri/Desktop/ProjectBoots/app/src/main/res/layout/castom_row.xml" value="0.27049180327868855" />
+        <entry key="..\:/Users/emiri/Desktop/ProjectBoots/app/src/main/res/layout/fragment_add.xml" value="0.27049180327868855" />
+        <entry key="..\:/Users/emiri/Desktop/ProjectBoots/app/src/main/res/layout/fragment_blank.xml" value="0.27049180327868855" />
+        <entry key="..\:/Users/emiri/Desktop/ProjectBoots/app/src/main/res/layout/fragment_list.xml" value="0.22" />
+        <entry key="..\:/Users/emiri/Desktop/ProjectBoots/app/src/main/res/layout/fragment_update.xml" value="0.27049180327868855" />
+        <entry key="..\:/Users/emiri/Desktop/ProjectBoots/app/src/main/res/layout/my_toolbar.xml" value="0.27049180327868855" />
+        <entry key="..\:/Users/emiri/Desktop/ProjectBoots/app/src/main/res/menu/main_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

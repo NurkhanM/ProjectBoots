@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.update.UpdateFragment">
+
+    <ImageButton
+        android:id="@+id/imgAddFirst"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/inset"
+        android:elevation="6dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_image"
+        android:stateListAnimator="@null"
+        android:translationZ="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linerfirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgAddFirst">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/naimenovanie_tovara" />
+        <EditText
+            android:id="@+id/edit_first"
+            android:paddingStart="10dp"
+            tools:ignore="RtlSymmetry"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/inset"
+            android:hint="@string/vpishite_nazvanie_tovara" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner2first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linerfirst">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sena_tovara" />
+
+        <EditText
+            android:id="@+id/edit2_first"
+            android:paddingStart="10dp"
+            tools:ignore="RtlSymmetry"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/inset"
+            android:hint="@string/vpishite_senu_tovara" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/liner3first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/liner2first">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/proizvodit_tovara" />
+
+        <EditText
+            android:id="@+id/edit3_first"
+            android:paddingStart="10dp"
+            tools:ignore="RtlSymmetry"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/inset"
+            android:hint="@string/nazvanie_proizvodit_tovara" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/liner4first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/liner3first">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/colichestvo_tovara" />
+
+        <EditText
+            android:id="@+id/edit4_first"
+            android:paddingStart="10dp"
+            tools:ignore="RtlSymmetry"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/inset"
+            android:hint="@string/colichestvo_tovara"
+            />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:textAllCaps="false"
+        android:text="Отмена"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/liner4first"/>
+    <Button
+        android:id="@+id/update_btn"
+        android:text="Сохранить"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/liner4first"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

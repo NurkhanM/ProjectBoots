@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ProjectBoots</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="naimenovanie_tovara">Наименование товара</string>
+    <string name="vpishite_nazvanie_tovara">Впишите название товара</string>
+    <string name="sena_tovara">Цена товара</string>
+    <string name="vpishite_senu_tovara">Впишите цену товара</string>
+    <string name="nazvanie_proizvodit_tovara">Название производителя товара</string>
+    <string name="proizvodit_tovara">Производитель товара</string>
+    <string name="colichestvo_tovara">Колличество товара</string>
+
+</resources>
